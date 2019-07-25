@@ -12,4 +12,11 @@ spring:
   profiles: test #测试环境
   application:
     name: microservicecloud-config-young-test
+
+---
+spring:
+  profiles: abc #abc环境
+  application:
+    name: microservicecloud-config-young-abc
+
 #保存为UTF-8格式
